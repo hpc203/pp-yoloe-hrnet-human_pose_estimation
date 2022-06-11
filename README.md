@@ -7,3 +7,7 @@ PP-YOLOE行人检测+HRNet人体骨骼关键点检测，使用ONNXRuntime部署�
 由于模型文件比较大，无法直接上传，文件存放在百度云盘，
 链接：https://pan.baidu.com/s/1kTxABy3YMXvSiMAU4HLLDQ 
 提取码：qggu
+
+如果你想对程序加速，可以在gpu-cuda设备里运行程序。这时Python版本的程序，需要安装onnruntime-gpu。
+C++版本的程序，在main.cpp里，有两行是跟cuda有关的代码，取消注释，gpu版本的onnxruntime的压缩包从 https://github.com/microsoft/onnxruntime/releases
+下载，重新编译C++程序
