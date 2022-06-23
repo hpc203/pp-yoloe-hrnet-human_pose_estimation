@@ -6,7 +6,6 @@ import cv2
 import numpy as np
 import onnxruntime
 import math
-from loguru import logger
 from keypoint_postprocess import HRNetPostProcess
 os.environ["KMP_DUPLICATE_LIB_OK"] = 'TRUE'
 
